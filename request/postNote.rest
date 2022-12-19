@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzOGNjMGJiMzJhZjg2NjA0M2M1NGE0MCIsInVzZXJuYW1lIjoiaWduYWNpb29jb2RlIiwiaWF0IjoxNjcwMTY4Nzk5fQ.LxVDYXeOeeLGpSK1jqXLWyag-k6nJ2TywQ9MF6DUPiM
+
+{
+    "content": "Otra nota desde el backend",
+    "important": true
+}

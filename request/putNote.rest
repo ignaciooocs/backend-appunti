@@ -1,0 +1,7 @@
+PUT http://localhost:3001/note/:id
+Content-Type: application/json
+
+{
+    "nombre": "Anuel AA",
+    "pais": "Puerto Rico"
+}
